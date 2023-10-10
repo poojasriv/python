@@ -1,0 +1,2 @@
+str="pooja sri"
+print(str[0:3])
