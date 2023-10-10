@@ -1,0 +1,2 @@
+str="pooja"
+print(len(str))
