@@ -1,0 +1,9 @@
+dich=()
+for i in range(4):
+    denomination=int(input(f"enter{i+1}"))
+    notes=int(input("enter the notes"))
+    dich[denomination]=notes
+    amt=0
+    for i in dich.items():
+        amt=amt+i[0]*i[1]
+        print(f"bal{amt}")
