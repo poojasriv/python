@@ -1,0 +1,7 @@
+n=int(input("enete the num"))
+str=""
+x=n
+for i in range(n):
+ str=str+str(i+1)
+ str=(x-i)*""+str
+ print(str)
