@@ -1,0 +1,7 @@
+a="pooja"
+b=a[::-1]
+if 1==b:
+    print("palindrome")
+else:
+    print("not palindrome")
+ 
