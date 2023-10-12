@@ -1,0 +1,9 @@
+def gcd(n1,n2,n3):
+    if(n1==0):
+        return n2 
+    else:
+     return gcd(n3%n2%n1,n1,n2)
+n1=6
+n2=21
+n3=4
+print("gcd is:",gcd(n1,n2,n3))
