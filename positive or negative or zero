@@ -1,0 +1,7 @@
+a=int(input("enter the num: "))
+if a>0:
+    print("the given num is positive")
+elif a==0:
+    print("the num is netural")
+else:
+    print("the num is negative")
