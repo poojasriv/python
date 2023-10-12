@@ -1,0 +1,4 @@
+a=3.1415
+radius=int(input("enter the num: "))
+area=a*(radius**2)
+print(f"the area of the circle with radius(radius)is(area)")
